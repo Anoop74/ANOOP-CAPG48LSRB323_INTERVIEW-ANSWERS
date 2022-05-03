@@ -1,0 +1,134 @@
+*****INTERVIEW QUESTIONS******
+ANOOP P
+CAPG48LSRB323
+
+
+1.What is difference in Overloading and Over riding
+
+Ans. 
+If two or more methods in same class having the same name but different parameters it is known as Overloading. It is an 
+example for complile time polymorphism.
+
+if the methods in superclass and child class having same name and parameters then it is known as Overriding. Overriding is an example
+for runtime polymorphism.
+
+2.If both the functions are static can we over ride
+Ans.
+We can not override static methods, because overriding is based on dynamic binding at run time where as static metods are based on static
+ binding and it happens at compile time
+
+3. Diffference bew Final , Finally and Finalize
+Ans.
+*Final is the keyword and access modifier which is used to apply restrictions on a class, method or variable.
+
+*Finally is the block in java exception handling to execute the important code whether the exception occurs or not.
+
+*Finalize is the method is used to perform clean up processing just before object is garbage collected.
+
+4.What are maker Interfaces
+Ans.
+A marker interface is an interface that has no methods or constants inside it.
+ It provides run-time type information about objects,
+ so the compiler and JVM have additional information about the object.
+
+5.What is Singleton class
+Ans.
+Singleton is a design pattern that ensures that a class can only have one object at a time. 
+
+6.What is the underlying Data structure for Arraylist and Linkedlist
+Ans.
+Both are two different imeplemetations of List interface.
+The underlyind data structure for ArrayList is an array.
+The underlying data structue for Linkedlist is list.
+
+7.What is hash collitition
+Ans.
+Hash collision is a random match in hash values that occurs when a hashing algorithm produces the
+ same hash value for two distinct pieces of data.
+
+8.What are lambda Expressions
+Ans.
+Lambda expression is a short block of code which takes in parameters and returns a value.
+Lambda expressions are similar to methods, but they do not need a name and they can be
+implemented right in the body of a method.
+parameter -> expression
+
+
+9.Whats is functional interface
+Ans.
+A Functional interface is an interface with just one abstract method declared in it.
+lambda expressions can be used to represent the instance of a functional interface. 
+A functional interface can have any number of default methods.
+
+10.What are optional classes in Java 8
+Ans.
+Opetional class is used to deal with NullPointerException.
+It provides methods which are used to check the presence of value for particular variable.
+we have to import Optional class from java.util package.
+
+11.What is factory design pattern and Adapter and difference bew them
+Ans.
+*Factory pattern is one of the most used design patterns in Java.
+This type of design pattern comes under creational pattern as this pattern provides one of the best ways to create an object.
+In Factory pattern, we create object without exposing the creation logic to the client and refer to newly created
+object using a common interface.
+
+*Adapter pattern is a software design pattern that allows the interface of an existing class to be used as another interface.
+for example we can consider a card reader as a real life example for adapter pattern
+
+12.What are Solid principles
+Ans.
+SOLID is a popular set of design principles that are used in object-oriented software development.
+SOLID stands for single responsibility principle, open-closed principle, Liskov substitution principle, 
+interface segregation principle, and dependency inversion principle.
+
+13. What does @component and @scan do in Sprinboot annaotation
+Ans.
+@Component indicates that a class might be a candidate for creating a bean. It's like putting a hand up.
+@ComponentScan is searching packages for Components.
+
+14.Whats is the Diference bew JPA , Hibernate and ORM
+Ans.
+JPA stands for java persistance api. It is a specification.It defines the management of relational data in the Java applications.
+Hibernate is an Object-Relational Mapping (ORM) tool which is used to save the state of Java object into the database.
+
+15.What is indexing in Database
+Ans. 
+Indexing is a way to optimize the performance of a database by minimizing the number of disk accesses
+required when a query is processed. 
+It is a data structure technique which is used to quickly locate and access the data in a database. 
+
+16.What are 4 types of Drivers in Jdbc
+Ans.
+Type-1 driver or JDBC-ODBC bridge driver
+Type-2 driver or Native-API driver
+Type-3 driver or Network Protocol driver
+Type-4 driver or Thin driver
+
+17.What is difrence bew @component and @bean and @service
+Ans.
+
+@Bean is used to explicitly declare a single bean, rather than letting Spring do it automatically. 
+If any class is annotated with @Component it will be automatically detect by using classpath scan.
+ @Service annotates classes at the service layer. 
+
+18. What is difference bew SOAP and restful services techinically
+Ans.
+SOAP stands for Simple Object Access Protocol.
+REST stands for REpresentational State Transfer.
+SOAP is a standardized protocol for pre-defined rules to follow.
+REST has an architectural style with loose guidelines.
+SOAP is functional-driven, means that data here is available as services, eg, getUser
+REST is data-driven, meaning that data is available asresources.
+
+19 . Difference in POST and PUT
+Ans.
+PUT method is call when you have to modify a single resource, which is already a part of resource collection.
+ POST method is call when you have to add a child resource under resources collection.
+
+20.IS react uni directional or Bi directional
+Ans.
+React is uni directional.It is has a uni directional flow.
+This means that the child components cannot update or modify the data on their own, makeing sure that a clean data flow architecture is followed. 
+This also means that you can control the data flow better.
+
